@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dataviv Technologies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #141e30, #243b55);
+            font-family: Arial, sans-serif;
+        }
+
+        .main-btn {
+            padding: 18px 45px;
+            font-size: 22px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            background: linear-gradient(45deg, #00c6ff, #0072ff);
+            transition: 0.4s ease;
+            box-shadow: 0 8px 20px rgba(0, 114, 255, 0.4);
+        }
+
+        .main-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 114, 255, 0.6);
+        }
+    </style>
+</head>
+<body>
+
+    <button class="main-btn" onclick="goToNextPage()">
+        Dataviv Technologies
+    </button>
+
+    <script>
+        function goToNextPage() {
+            window.location.href = "nextpage.html";
+        }
+    </script>
+
+</body>
+</html>

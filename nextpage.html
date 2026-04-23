@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        .hero-section {
+            padding: 120px 20px 80px;
+        }
+
+        h1 {
+            font-size: 52px;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #dcdcdc;
+            margin-bottom: 70px;
+        }
+
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(2, 300px);
+            gap: 40px;
+            justify-content: center;
+        }
+
+        .premium-btn {
+            padding: 18px 25px;
+            font-size: 18px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transition: all 0.4s ease;
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+            background: linear-gradient(45deg, #00c6ff, #0072ff);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        }
+
+        .premium-btn:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+            background: linear-gradient(45deg, #00f2fe, #4facfe);
+        }
+
+        .premium-btn.secondary {
+            background: linear-gradient(45deg, #63cddf, #38ef7d);
+        }
+
+        .premium-btn.secondary:hover {
+            background: linear-gradient(45deg, #43e97b, #38f9d7);
+        }
+
+        .premium-btn.gold {
+            background: linear-gradient(45deg, #f7971e, #ffd200);
+            color: #000;
+        }
+
+        .premium-btn.gold:hover {
+            background: linear-gradient(45deg, #ffcc00, #ff8800);
+        }
+
+        .premium-btn.dark {
+            background: linear-gradient(45deg, #434343, #000000);
+        }
+
+        .premium-btn.dark:hover {
+            background: linear-gradient(45deg, #232526, #414345);
+        }
+
+        @media (max-width: 768px) {
+            .button-container {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 38px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="hero-section">
+
+    
+
+    <p class="subtitle">
+        
+    </p>
+
+    <div class="button-container">
+
+        <a href="usecases.html" class="premium-btn">
+            Some Use Cases of Applied AI Lab
+        </a>
+
+        <a href="selectedshowcase.html" class="premium-btn secondary">
+            Selected Showcase
+        </a>
+
+        <a href="customai.html" class="premium-btn gold">
+            Custom AI Development
+        </a>
+
+        <a href="recognition.html" class="premium-btn dark">
+            Product Success & Recognition
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>

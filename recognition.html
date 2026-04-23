@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Success Recognitions</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Georgia', serif;
+        background-color: #f4f6f9;
+        color: #111;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1400px;
+        margin: auto;
+        padding: 60px 0;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 48px;
+        margin-bottom: 60px;
+        letter-spacing: 2px;
+    }
+
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+        align-items: start;
+    }
+
+    .card {
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        transition: 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .side-column {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .publicity-title {
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 1024px) {
+        .grid-layout {
+            grid-template-columns: 1fr;
+        }
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Product Success Recognitions</h1>
+
+    <div class="grid-layout">
+
+        <!-- Letter 1 -->
+        <div class="card">
+            <img src="rec1.png" alt="Recognition Letter 1">
+        </div>
+
+        <!-- Letter 2 -->
+        <div class="card">
+            <img src="rec2.png" alt="Recognition Letter 2">
+        </div>
+
+        <!-- Publicity & Media Column -->
+        <div class="side-column">
+
+            <div class="card">
+                <div class="publicity-title">
+                    
+                </div>
+                <img src="rec3.png" alt="Publicity News">
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

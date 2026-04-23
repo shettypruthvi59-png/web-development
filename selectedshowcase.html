@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selected Showcase - Dataviv Technologies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        .container {
+            width: 1200px;
+            margin: auto;
+            padding: 60px 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .case-section {
+            margin-bottom: 100px;
+        }
+
+        .case-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .case-text {
+            width: 65%;
+        }
+
+        .case-text p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .status {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .qr-box img {
+            width: 200px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .grid-3 img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .large-image {
+            margin-top: 40px;
+        }
+
+        .large-image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .two-column {
+            display: flex;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .two-column img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .left-col {
+            width: 50%;
+        }
+
+        .right-col {
+            width: 50%;
+        }
+
+        .divider {
+            border-top: 2px solid #00cc66;
+            margin: 80px 0;
+        }
+
+        @media (max-width: 1000px) {
+            .container {
+                width: 90%;
+            }
+
+            .case-header,
+            .two-column {
+                flex-direction: column;
+            }
+
+            .case-text,
+            .left-col,
+            .right-col {
+                width: 100%;
+            }
+
+            .grid-3 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Selected Showcase</h1>
+
+<!-- ===================== CASE 1 ===================== -->
+
+<div class="case-section">
+
+    <h1>Case Study: Mayo College Ajmer</h1>
+
+    <div class="case-header">
+
+        <div class="case-text">
+            <p>
+                World's First Applied AI Lab with Computer Vision and Interaction AI equipment
+                allowing students to build the future of AI. The exclusive Dataviv equipment
+                was globally recognised with student success.
+            </p>
+
+            <p class="status">
+                Status - Centre active from past 1.5 years with tremendous progress in projects.
+            </p>
+        </div>
+
+        <div class="qr-box">
+            <img src="qr1.png" alt="QR Code">
+        </div>
+
+    </div>
+
+    <div class="grid-3">
+        <img src="mayo1.png">
+        <img src="mayo2.png">
+        <img src="mayo3.png">
+        <img src="mayo4.png">
+        <img src="mayo5.png">
+        <img src="mayo6.png">
+    </div>
+
+</div>
+
+<div class="divider"></div>
+
+<!-- ===================== CASE 2 ===================== -->
+
+<div class="case-section">
+
+    <h1>Case Study: Baramati, Maharashtra</h1>
+
+    <div class="case-header">
+
+        <div class="case-text">
+            <p>
+                Government of Maharashtra project where a first-of-its-kind
+                talking globe was set up with Virtual Reality and Metaverse experiences.
+                Integrated Haptic Chairs and Brain Computer Interface systems were installed
+                to showcase future technologies.
+            </p>
+
+            <p class="status">
+                Status - Center active from past 3 years generating revenue.
+            </p>
+        </div>
+
+        <div class="qr-box">
+            <img src="qr2.png" alt="QR Code">
+        </div>
+
+    </div>
+
+    <div class="large-image">
+        <img src="bara.png">
+    </div>
+
+</div>
+
+<div class="divider"></div>
+
+<!-- ===================== CASE 3 ===================== -->
+
+<div class="case-section">
+
+    <h1>Case Study: Enterprise Skin AI Application</h1>
+
+    <p style="text-align:center; font-size:20px; margin-bottom:40px;">
+        AI-powered dermatology application delivering personalised treatment outcomes.
+    </p>
+
+    <div class="two-column">
+
+        <div class="left-col">
+            <img src="skin1.png">
+            <br><br>
+            <img src="skin21.png">
+        </div>
+
+        <div class="right-col">
+
+            <p>
+                Application built for a leading skin care clinic company to showcase
+                personalised treatment outcomes and predictable ROI.
+            </p>
+
+            <ul style="font-size:18px; line-height:1.8;">
+                <li>Detection of skin diseases across acne, scars and pigmentation.</li>
+                <li>Generative AI-based treatment preview images.</li>
+                <li>CRM integration with Microsoft systems.</li>
+                <li>AI-powered mobile application deployed on Azure.</li>
+                <li>Deployed across 70+ clinics globally.</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+</body>
+</html>
